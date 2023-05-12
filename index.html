@@ -23,31 +23,43 @@
         <div class="square2"></div>
         <div class="nav">
             <div class="nav2">
-                <a href="">Home</a>
-                <a href="">Parcours</a>
-                <a href="">Projets</a>
+                <a class="whiteHover transition active" onclick="btnActive()" href="#main">Home</a>
+                <a class="whiteHover transition" onclick="btnActive()" href="#secondMain">Parcours</a>
+                <a class="whiteHover transition" onclick="btnActive()" href="#">Projets</a>
             </div>
             <div class="socialIcons">
-                <a href=""><img src="assets/img/icons8-twitter-50.png" alt=""></a>
-                <a href=""><img src="assets/img/icons8-linkedin-50.png" alt=""></a>
-                <a href=""><img src="assets/img/icons8-instagram-50.png" alt=""></a>
+                <a href="" target="_blank"><img title="twitter" src="assets/img/icons8-twitter-50.png" alt=""></a>
+                <a href="" target="_blank"><img title="linkedin" src="assets/img/icons8-linkedin-50.png" alt=""></a>
+                <a href="" target="_blank"><img title="instagram" src="assets/img/icons8-instagram-50.png" alt=""></a>
+                <a href="" target="_blank"><img title="CV" src="assets/img/icons8-cv-50.png" alt=""></a>
             </div>
         </div>
         <div class="container">
-            <div class="head">
+            <div class="head selectorBlue" id="main">
                 <div class="headLeft">
                     <div class="headText">
-                        <h1>Lorem Lorem</h1>
-                        <h2>Lorem</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro ratione obcaecati
-                            inventore ea amet voluptatum enim nobis placeat similique, debitis cupiditate eligendi
-                            architecto eos distinctio? Quam natus quasi unde.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro ratione obcaecati
-                            inventore ea amet voluptatum enim nobis placeat similique, debitis cupiditate eligendi
-                            architecto eos distinctio? Quam natus quasi unde.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro ratione obcaecati
-                            inventore ea amet voluptatum enim nobis placeat similique, debitis cupiditate eligendi
-                            architecto eos distinctio? Quam natus quasi unde.</p>
+                        <h1>Jonathan Fercot</h1>
+                        <h2>Développeur web</h2>
+                        <p>
+                            Je suis un développeur web junior spécialisé dans les technologies HTML, CSS, JavaScript,
+                            PHP et React. Passionné par la création d'expériences utilisateur fluides et attrayantes,
+                            j'ai acquis une solide compréhension des principes de conception web et de la programmation
+                            côté client.
+                        </p>
+                        <br>
+                        <p>
+                            Je suis capable de créer des interfaces utilisateur interactives et réactives
+                            en utilisant des frameworks tels que React. Ma connaissance du langage PHP me permet de
+                            développer des fonctionnalités backend robustes pour des applications web dynamiques. Je
+                            suis un apprenant rapide, doté d'un fort esprit d'équipe et d'une grande capacité à résoudre
+                            les problèmes.
+                        </p>
+                        <br>
+                        <p>
+                            Je suis prêt à relever de nouveaux défis et à contribuer au succès des
+                            projets de développement web.
+                        </p>
+
                     </div>
                 </div>
                 <div class="headRight">
@@ -55,35 +67,63 @@
                 </div>
             </div>
 
-            <div class="head whiteBg">
-                <div class="headLeft">
-                    <div class="headText">
-                        <h1 class="blackText">Lorem Lorem</h1>
-                        <h2>Lorem</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro ratione obcaecati
-                            inventore ea amet voluptatum enim nobis placeat similique, debitis cupiditate eligendi
-                            architecto eos distinctio? Quam natus quasi unde.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro ratione obcaecati
-                            inventore ea amet voluptatum enim nobis placeat similique, debitis cupiditate eligendi
-                            architecto eos distinctio? Quam natus quasi unde.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro ratione obcaecati
-                            inventore ea amet voluptatum enim nobis placeat similique, debitis cupiditate eligendi
-                            architecto eos distinctio? Quam natus quasi unde.</p>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro ratione obcaecati
-                            inventore ea amet voluptatum enim nobis placeat similique, debitis cupiditate eligendi
-                            architecto eos distinctio? Quam natus quasi unde.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro ratione obcaecati
-                            inventore ea amet voluptatum enim nobis placeat similique, debitis cupiditate eligendi
-                            architecto eos distinctio? Quam natus quasi unde.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro ratione obcaecati
-                            inventore ea amet voluptatum enim nobis placeat similique, debitis cupiditate eligendi
-                            architecto eos distinctio? Quam natus quasi unde.</p>
+            <!-- GAUCHE Formations DROITE Expériences -->
+            <div class="head whiteBg selectorPink" id="secondMain">
+                <div class="headLeft2">
+                    <div class="headText2">
+                        <h2>FORMATIONS</h2>
+                        <div class="cardLike">
+                            <!-- Date sur le côté en rose -->
+                            <span class="date">17.03.2023</span>
+                            <h4>Développeur web et web mobile (bac+2) - <span class="textBlue">LA MANU</span></h4>
+                            <p>#HTML, #CSS, #JS, #PHP, #Database</p>
+                        </div>
+                        <div class="cardLike">
+                            <!-- Date sur le côté en rose -->
+                            <span class="date">07.02.2023</span>
+                            <h4>Community Manager - <span class="textBlue">LA MANU</span></h4>
+                            <p>#Marketing, #Communication, #Design, #RéseauxSociaux</p>
+                        </div>
+                        <div class="cardLike">
+                            <!-- Date sur le côté en rose -->
+                            <span class="date">10.01.2021</span>
+                            <h4>Développeur web - <span class="textBlue">GRETA</span></h4>
+                            <p>#HTML, #CSS, #JS, #PHP, #Database</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="headRight2 whiteBg">
+                    <div class="headText2">
+                        <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
+                        <div class="cardLike">
+                            <!-- Date sur le côté en rose -->
+                            <span class="date">13.10.2022</span>
+                            <h4>Conseiller Client - <span class="textBlue">WEBHELP</span></h4>
+                            <p>#Ecoute, #Conseil, #Patience</p>
+                        </div>
+                        <div class="cardLike">
+                            <!-- Date sur le côté en rose -->
+                            <span class="date">21.04.2022</span>
+                            <h4>Développeur web - <span class="textBlue">WALACOM</span></h4>
+                            <p>#Autonomie, #Symfony, #Minutie</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="skills whiteBg selectorPink">
+                <h2>COMPÉTENCES</h2>
+                <ul>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </div>
+
+            <!-- En dessous les skills, sous forme de logos -->
+
         </div>
     </div>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
