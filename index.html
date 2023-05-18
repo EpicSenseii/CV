@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -25,13 +25,14 @@
             <div class="nav2">
                 <a class="whiteHover transition active" onclick="btnActive()" href="#main">Home</a>
                 <a class="whiteHover transition" onclick="btnActive()" href="#secondMain">Parcours</a>
-                <a class="whiteHover transition" onclick="btnActive()" href="#">Projets</a>
+                <a class="whiteHover transition" onclick="btnActive()" href="#projects">Projets</a>
             </div>
             <div class="socialIcons">
-                <a href="" target="_blank"><img title="twitter" src="assets/img/icons8-twitter-50.png" alt=""></a>
-                <a href="" target="_blank"><img title="linkedin" src="assets/img/icons8-linkedin-50.png" alt=""></a>
-                <a href="" target="_blank"><img title="instagram" src="assets/img/icons8-instagram-50.png" alt=""></a>
-                <a href="" target="_blank"><img title="CV" src="assets/img/icons8-cv-50.png" alt=""></a>
+                <a href="" target="_blank"><img title="linkedin" src="assets/img/icons8-linkedin-50.png" alt="Linkedin icon"></a>
+                <a href="" target="_blank"><img title="github" src="assets/img/icons8-github-50.png" alt="Github icon"></a>
+                <a href="" target="_blank"><img title="twitter" src="assets/img/icons8-twitter-50.png" alt="Twitter icon"></a>
+                <a href="assets/img/CVDVCM copie.pdf" target="_blank"><img title="CV" src="assets/img/icons8-cv-50.png"
+                        alt="Download cv in pdf" download></a>
             </div>
         </div>
         <div class="container">
@@ -63,7 +64,7 @@
                     </div>
                 </div>
                 <div class="headRight">
-                    <img class="heroImg" src="assets/img/Programming-amico.svg" alt="">
+                    <img class="heroImg" src="assets/img/Programming-amico.svg" alt="Developper illustration">
                 </div>
             </div>
 
@@ -82,13 +83,13 @@
                             <!-- Date sur le côté en rose -->
                             <span class="date">07.02.2023</span>
                             <h4>Community Manager - <span class="textBlue">LA MANU</span></h4>
-                            <p>#Marketing, #Communication, #Design, #RéseauxSociaux</p>
+                            <p>#Marketing, #Communication, #Design</p>
                         </div>
                         <div class="cardLike">
                             <!-- Date sur le côté en rose -->
                             <span class="date">10.01.2021</span>
                             <h4>Développeur web - <span class="textBlue">GRETA</span></h4>
-                            <p>#HTML, #CSS, #JS, #PHP, #Database</p>
+                            <p>#HTML, #CSS, #JS, #PHP, #MYSQL</p>
                         </div>
                     </div>
                 </div>
@@ -103,6 +104,12 @@
                         </div>
                         <div class="cardLike">
                             <!-- Date sur le côté en rose -->
+                            <span class="date">18.07.2022</span>
+                            <h4>Freelance Shopify - <span class="textBlue">Particulier</span></h4>
+                            <p>#Autonomie, #Liquid, #Coopération</p>
+                        </div>
+                        <div class="cardLike">
+                            <!-- Date sur le côté en rose -->
                             <span class="date">21.04.2022</span>
                             <h4>Développeur web - <span class="textBlue">WALACOM</span></h4>
                             <p>#Autonomie, #Symfony, #Minutie</p>
@@ -111,15 +118,40 @@
                 </div>
             </div>
             <div class="skills whiteBg selectorPink">
-                <h2>COMPÉTENCES</h2>
-                <ul>
-                    <li>
-                        
-                    </li>
-                </ul>
+                <div class="headText2">
+                    <h2>COMPÉTENCES</h2>
+                    <ul>
+                        <li>
+                            <img src="assets/img/langIcons/icons8-html-100.png" alt="HTML icon">
+                            <img src="assets/img/langIcons/icons8-css-100.png" alt="CSS icon">
+                            <img src="assets/img/langIcons/icons8-js-100.png" alt="JavaScript icon">
+                            <img src="assets/img/langIcons/icons8-php-100.png" alt="PHP icon">
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-            <!-- En dessous les skills, sous forme de logos -->
+            <div class="projects selectorBlue" id="projects">
+                <h2>PROJETS</h2>
+                <div class="cards">
+                    <div class="projectCard">
+                        <a href=""><img src="https://picsum.photos/900" alt="Project image"></a>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="projectCard">
+                        <a href=""><img src="https://picsum.photos/900" alt="Project image"></a>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="projectCard">
+                        <a href=""><img src="https://picsum.photos/900" alt="Project image"></a>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact whiteBg">
+                <a href="mailto:Jonathan.Fercot@outlook.fr">CONTACT</a>
+            </div>
 
         </div>
     </div>
@@ -128,4 +160,9 @@
 
 </html>
 
-<!--  Faire des active en forme de point rouge  -->
+<!-- 
+    Mettre l'image en bannière sur la version tablette 
+    Mettre les socials en bas de bas sur tablette et mobile
+    TIPS: Utiliser display none et faire 2 emplacements différents pour les versions
+    Ajouter logo GitHub à la place d'instagram
+-->

@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 
-#main p::-moz-selection {
+.selectorBlue::-moz-selection {
     background: #80b8f0;
 }
 
@@ -17,6 +17,7 @@
     background: #80b8f0;
 
 }
+
 .selectorPink ::selection {
     background: lightcoral;
 }
@@ -74,6 +75,10 @@ p {
 a {
     color: #8A8989;
     text-decoration: none;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mainBackground {
@@ -136,9 +141,13 @@ a {
     width: 60%;
 }
 
+.headText2 {
+    padding-bottom: 2%;
+}
+
 .headText h1,
 h2 {
-    padding-bottom: 4%;
+    padding-bottom: 20px;
 }
 
 .headRight {
@@ -193,10 +202,6 @@ h2 {
     background: rgb(250, 250, 250);
 }
 
-.headText2 {
-    /* width: 60%; */
-}
-
 .cardLike {
     position: relative;
     padding: 10px;
@@ -227,4 +232,124 @@ h2 {
 
 .skills {
     text-align: center;
+}
+
+.skills img {
+    height: 70px;
+}
+
+.projects {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 9999;
+    padding: 20px 5%;
+    gap: 20px;
+    text-align: center;
+}
+
+.projectCard {
+    flex: 350px;
+}
+
+.projectCard img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    /* background: #80b8f0; */
+    padding: 1px;
+}
+
+.contact {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact a {
+    color: black;
+    border: 2px solid black;
+    background: white;
+    font-weight: bold;
+    padding: 2% 4%;
+    filter: drop-shadow(5px 3px 0px #80b8f0) drop-shadow(-5px -3px 0px lightcoral);
+    transition: .2s;
+}
+
+.contact a:hover {
+    transform: scale(1.03);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1000px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .square1,
+    .square2 {
+        display: none;
+    }
+
+    .head {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .headText {
+        width: 100%;
+    }
+
+    .headLeft {
+        padding-bottom: 4%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .headLeft2,
+    .headRight2,
+    .headText {
+        width: 100%;
+    }
+
+    .square1,
+    .square2 {
+        display: none;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heroImg {
+        display: none;
+    }
+
+    .headRight {
+        display: none;
+    }
+
+    .headLeft {
+        padding-bottom: 4%;
+    }
+
+    .cards {
+        padding: 0;
+    }
 }
